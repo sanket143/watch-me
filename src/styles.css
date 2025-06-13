@@ -1,0 +1,57 @@
+:root {
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #0f0f0f;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.window-drag {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  app-region: drag;
+  -webkit-app-region: drag;
+}
+
+.stopwatch {
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.stopwatch .display {
+  font-size: 3.5rem;
+  font-family: monospace;
+  color: #ff90aa;
+  user-select: none;
+  -webkit-user-select: none;  /* Safari */
+  -moz-user-select: none;     /* Firefox */
+  -ms-user-select: none;      /* IE/Edge */
+  pointer-events: none;       /* This ensures clicks pass through to the parent */
+  transition: transform 0.1s ease;
+}
