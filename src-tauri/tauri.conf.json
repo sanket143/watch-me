@@ -14,8 +14,8 @@
     "windows": [
       {
         "title": "watch-me",
-        "width": 300,
-        "height": 100,
+        "width": 260,
+        "height": 56,
         "fullscreen": false,
         "resizable": false,
         "transparent": true,
