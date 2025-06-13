@@ -24,7 +24,8 @@
         "hiddenTitle": true,
         "shadow": false,
         "maximizable": false,
-        "visibleOnAllWorkspaces": true
+        "visibleOnAllWorkspaces": true,
+        "skipTaskbar": true
       }
     ],
     "macOSPrivateApi": true,
